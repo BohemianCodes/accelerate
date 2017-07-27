@@ -43,3 +43,39 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/*Case Studies*/
+
+article.case-study {
+	margin-top: 40px;
+}
+
+.case-studies-sidebar {
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+}
+
+.case-studies-main {
+	float: left;
+	width: 608px;
+}
+
+.case-studies-main img{
+	display: block;
+	margin-bottom: 50px;
+}
+
+.case-studies-title {
+	font-family: 'open sans';
+	margin-bottom: 0px;
+
+}
+
+.case-studies-sidebar h5 {
+	font-size: 0.7em;
+	font-weight: normal;
+	margin-top: 3px;
+	color: grey;
+	text-transform: none;
+}
