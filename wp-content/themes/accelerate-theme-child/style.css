@@ -56,12 +56,12 @@ article.case-study {
 	margin-right: 50px;
 }
 
-.case-studies-main {
+.case-studies-images {
 	float: left;
 	width: 608px;
 }
 
-.case-studies-main img{
+.case-studies-images img{
 	display: block;
 	margin-bottom: 50px;
 }
