@@ -69,6 +69,7 @@ article.case-study {
 .case-studies-title {
 	font-family: 'open sans';
 	margin-bottom: 0px;
+	font-weight: normal;
 
 }
 
@@ -78,4 +79,17 @@ article.case-study {
 	margin-top: 3px;
 	color: grey;
 	text-transform: none;
+}
+
+.case-studies-sidebar h6 {
+	font-size: 0.9em;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-bottom: 27px;
+}
+
+.case-studies-sidebar a {
+	color: #45AB9D;
+	text-transform: uppercase;
+	font-weight: bold;
 }
