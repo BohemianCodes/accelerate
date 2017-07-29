@@ -93,3 +93,18 @@ article.case-study {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
+/*Front-Page*/
+
+.featured-work h4 {
+	text-transform: uppercase;
+	text-align: center;
+}
+.featured-work h6 {
+	font-weight: normal;
+	text-align: center;
+}
+
+.featured-work-list {
+	list-style-type: none;
+}
