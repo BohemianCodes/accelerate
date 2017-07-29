@@ -33,7 +33,7 @@ get_header(); ?>
 
 				<?php the_content(); ?>
 
-				<p><a href="<?php echo $link; ?>">Visit live site ></a></p>
+				<p><a href="<?php echo $link; ?>">Visit live site &rsaquo;</a></p>
 
 			</aside>
 
