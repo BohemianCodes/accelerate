@@ -94,17 +94,81 @@ article.case-study {
 	font-weight: bold;
 }
 
+/*Case Studies Archive Page*/
+
+.case-studies-archive-sidebar {
+	float: left;
+	width: 300px;
+	margin-right: 76px;
+}
+
+.case-studies-archive-title {
+	font-family: 'open sans';
+	margin-bottom: 0px;
+	font-weight: normal;
+	margin-top: 15px;
+
+}
+
+.case-studies-archive-sidebar a {
+	
+	font-weight: bold;
+}
+
+.case-studies-archive-sidebar h5 {
+	font-size: 0.7em;
+	font-weight: normal;
+	margin-top: 3px;
+	color: grey;
+	text-transform: none;
+}
+
+.case-studies-archive-sidebar h6 {
+	font-size: 0.9em;
+	font-weight: normal;
+	margin-top: 5px;
+	margin-bottom: 27px;
+}
+
+.case-studies-archive-images {
+	float: left;
+	width: 550px;
+}
+
+.case-studies-archive-images img{
+	display: block;
+	margin-bottom: 50px;
+	max-width: 520px;
+}
+
+
+
 /*Front-Page*/
 
 .featured-work h4 {
 	text-transform: uppercase;
 	text-align: center;
+	margin-bottom: 15px;
 }
 .featured-work h6 {
 	font-weight: normal;
 	text-align: center;
+	margin-top: 20px;
 }
 
 .featured-work-list {
 	list-style-type: none;
+
+	padding: 0;
+  	margin: 0;
+	list-style: none;
+	  
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	  
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
 }
