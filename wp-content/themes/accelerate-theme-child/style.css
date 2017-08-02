@@ -184,3 +184,39 @@ article.case-study {
 	-webkit-flex-flow: row wrap;
 	justify-content: space-around;
 }
+
+
+/*Contact Form*/
+
+#nf-field-1-container, #nf-field-2-container, .nf-field-container {
+	float: left;
+	display: inline-block;
+	clear: none;
+	width: 325px;
+}
+
+#nf-field-3-container {
+	clear: both;
+	width: 100%;
+}
+
+#nf-field-1-container {
+	margin-right: 30px;
+}
+
+#primary {
+	width: 45%;
+}
+
+.ninja-forms-req-symbol {
+  display: none;
+}
+
+.nf-form-fields-required {
+	display: none;
+}
+
+.nf-field-label label{
+	font-weight: normal !important;
+}
+
