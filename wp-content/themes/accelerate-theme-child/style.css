@@ -52,13 +52,13 @@ article.case-study {
 
 .case-studies-sidebar {
 	float: left;
-	width: 300px;
-	margin-right: 50px;
+	width: 35%;
+	margin-right: 4%;
 }
 
 .case-studies-images {
 	float: left;
-	width: 608px;
+	width: 58%;
 }
 
 .case-studies-images img{
@@ -188,23 +188,8 @@ article.case-study {
 
 /*Contact Form*/
 
-#nf-field-1-container, #nf-field-2-container, .nf-field-container {
-	float: left;
-	display: inline-block;
-	clear: none;
-	width: 325px;
-}
 
-#nf-field-3-container {
-	clear: both;
-	width: 100%;
-}
-
-#nf-field-1-container {
-	margin-right: 30px;
-}
-
-#primary {
+.contact-page #primary {
 	width: 45%;
 }
 
@@ -218,5 +203,15 @@ article.case-study {
 
 .nf-field-label label{
 	font-weight: normal !important;
+	font-size: 0.9em;
 }
 
+.send-button-element, .send-button-container  {
+	float: right;
+	font-weight: normal !important;
+	font-size: 0.9em;
+}
+
+#nf-field-4 {
+	width: 200px;
+}
