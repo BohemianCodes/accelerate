@@ -23,12 +23,13 @@ get_header(); ?>
 		<div class="main-content" role="main">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<section class ="our-services">
-					<h5>Our Services</h5>
-						<p>We take pride in our clients and the content we create for them. Here's a brief overview of our offered services.</p>
+					
+					<?php the_content(); ?>
+						
 				</section>
 
 				<section class="about-main">
-					<?php the_content(); ?>
+					
 
 
 				</section>

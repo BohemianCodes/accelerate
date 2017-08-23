@@ -235,7 +235,10 @@ article.case-study {
 
 .about-page .home-page {
     background: url("img/taxi-photo2.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
-    height: 300px;
+    height: 400px;
+    padding: 0;
+    padding-top: 5em;
+    margin: 0;
 }
 
 .our-services {
