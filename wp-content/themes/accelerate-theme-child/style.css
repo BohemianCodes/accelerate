@@ -270,3 +270,25 @@ article.case-study {
 .service-block {
 	margin-top: 30px;
 }
+
+.contact-box {
+	border-top: 1px solid #bfbfbf;
+	margin-top: 40px;
+	text-align: center;
+	padding: 40px;
+	padding-bottom: 20px;
+}
+
+.contact-box p {
+	display: inline;
+	font-weight: bold;
+	font-size:19px;
+	padding-right: 20px;
+}
+
+.contact-box .button {
+	display: inline;
+	font-weight: normal;
+	padding: 10px 50px;
+	font-size: 16px;
+}

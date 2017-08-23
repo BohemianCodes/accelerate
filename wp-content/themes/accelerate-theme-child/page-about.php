@@ -110,9 +110,20 @@ get_header(); ?>
 							<p><?php echo $service4; ?></p>
 						</div>
 
+							<div class="clearfix"></div>
+
+						<div class="contact-box">
+
+							<p>Interested in working with us?</p>
+							<a class="button" href="#">Contact Us</a>
+
+						</div>
+
 					</div>
 
 				</section>
+
+				
 	
 		</div><!-- #content -->
 
