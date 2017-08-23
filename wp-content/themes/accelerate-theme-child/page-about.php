@@ -51,8 +51,17 @@ get_header(); ?>
 				</section>
 
 				<section class="about-main">
-					
 
+					<div class="image-float-left">
+
+						<?php if($image1) { 
+						echo wp_get_attachment_image( $image1, $size );
+						} ?>
+					
+					<div class="text-float-right" id="service1">
+						<h3><?php echo $service_title1; ?></h3>
+						<p><?php echo $service1; ?></p>
+					</div>
 
 				</section>
 	
