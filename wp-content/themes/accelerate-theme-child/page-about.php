@@ -25,7 +25,7 @@ get_header(); ?>
 				$image1 = get_field('image1');
 				$image2 = get_field('image2');
 				$image3 = get_field('image3');
-				$image3 = get_field('image3');
+				$image4 = get_field('image4');
 
 				$size = "full";
 			?>
@@ -63,6 +63,51 @@ get_header(); ?>
 						<div class="text-float-right" id="service1">
 							<h3><?php echo $service_title1; ?></h3>
 							<p><?php echo $service1; ?></p>
+						</div>
+
+					</div>
+
+					<div class="service-block">
+
+						<div class="image-float-right">
+
+							<?php if($image2) { 
+							echo wp_get_attachment_image( $image2, $size );
+							} ?>
+						
+						<div class="text-float-left" id="service2">
+							<h3><?php echo $service_title2; ?></h3>
+							<p><?php echo $service2; ?></p>
+						</div>
+
+					</div>
+
+					<div class="service-block">
+
+						<div class="image-float-left">
+
+							<?php if($image3) { 
+							echo wp_get_attachment_image( $image3, $size );
+							} ?>
+						
+						<div class="text-float-right" id="service3">
+							<h3><?php echo $service_title3; ?></h3>
+							<p><?php echo $service3; ?></p>
+						</div>
+
+					</div>
+
+					<div class="service-block">
+
+						<div class="image-float-right">
+
+							<?php if($image4) { 
+							echo wp_get_attachment_image( $image4, $size );
+							} ?>
+						
+						<div class="text-float-left" id="service4">
+							<h3><?php echo $service_title4; ?></h3>
+							<p><?php echo $service4; ?></p>
 						</div>
 
 					</div>
