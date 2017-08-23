@@ -10,7 +10,26 @@
 get_header(); ?>
 
 <section class="home-page">
-		<?php while ( have_posts() ) : the_post(); ?>
+		<?php while ( have_posts() ) : the_post(); 
+
+				$service_title1 = get_field('service_title1');
+				$service_title2 = get_field('service_title2');
+				$service_title3 = get_field('service_title3');
+				$service_title4 = get_field('service_title4');
+
+				$service1 = get_field('service1');
+				$service2 = get_field('service2');
+				$service3 = get_field('service3');
+				$service4 = get_field('service4');
+
+				$image1 = get_field('image1');
+				$image2 = get_field('image2');
+				$image3 = get_field('image3');
+				$image3 = get_field('image3');
+
+				$size = "full";
+			?>
+
 			<div class="homepage-hero">
 				<div class="site-content about-title">
 					<p><span class="green-text">Accelerate</span> is a strategy and marketing agency located in the heart of NYC. Our goal is to build businesses by making our clients visible and making their customers smile.</p>
@@ -21,7 +40,10 @@ get_header(); ?>
 
 	<div id="primary" class="site-content">
 		<div class="main-content" role="main">
-			<?php while ( have_posts() ) : the_post(); ?>
+			
+				
+
+
 				<section class ="our-services">
 					
 					<?php the_content(); ?>
@@ -33,7 +55,7 @@ get_header(); ?>
 
 
 				</section>
-			<?php endwhile; // end of the loop. ?>
+	
 		</div><!-- #content -->
 
 
