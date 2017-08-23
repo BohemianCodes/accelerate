@@ -245,9 +245,18 @@ article.case-study {
 	text-align: center;
 	width: 50%;
 	margin: auto;
+	margin-bottom: 50px;
 }
 
 .about-page .text-float-right {
 	float: right;
 	width: 75%;
+	padding: 0px 20px 0px 60px;
+}
+
+.about-page h3 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 1.3em;
+	margin-top: 25px;
 }
